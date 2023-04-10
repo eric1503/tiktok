@@ -2,7 +2,7 @@
 //  CardView.swift
 //  tiktok
 //
-//  Created by Stephen Giovanni Saputra on 10/04/23.
+//  Created by Eric Angelo on 10/04/23.
 //
 
 import SwiftUI
