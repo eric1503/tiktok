@@ -9,16 +9,18 @@ import SwiftUI
 
 struct CardView: View {
     let text: String
+    let color: Color
 
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 10)
-                .fill(Color.white)
+                .fill(color)
                 .shadow(radius: 5)
             Text(text)
-                .foregroundColor(.black)
-                .font(.system(size: 20, weight: .bold, design: .default))
+                .foregroundColor(.white)
+                .font(.system(size: 56, weight: .bold, design: .default))
                 .padding()
         }
+        .padding(.horizontal)
     }
 }
