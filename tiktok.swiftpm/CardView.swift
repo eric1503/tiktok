@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
+    
     let text: String
     let color: Color
 
@@ -21,6 +22,6 @@ struct CardView: View {
                 .font(.system(size: 56, weight: .bold, design: .default))
                 .padding()
         }
-        .padding(.horizontal)
+        .padding(.all)
     }
 }
